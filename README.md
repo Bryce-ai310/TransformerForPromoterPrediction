@@ -16,7 +16,6 @@ Transformer model to predict promoter in 2000 sequences
 优化：
 
 1. 添加一层CNN层取代k-mer
-2. 
 在传统NLP 模型，常采用滑动窗口进行 k-mer 切词（例如将序列切分为 3-mer 或 6-mer）。
 
 尽管这种方法能捕捉局部上下文，但存在极其致命的工程与生物学缺陷，
